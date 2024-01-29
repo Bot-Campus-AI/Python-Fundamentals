@@ -13,4 +13,14 @@ To clone and start working with your new Git repository locally, follow these st
     e. Once authenticated, select the local path for the repository, and VS Code will clone and open it.
 6. You can now start working on the project locally.
 
+
+For Adding Multiple Generic Credentials:
+-----------------------------------------
+Open Windows Credential Manager.
+Click on "Add a generic credential."
+In the "Internet or network address" field, enter https://github.com/Bot-Campus-AI.
+In the "User name" field, enter your GitHub username.
+In the "Password" field, enter your personal access token.
+Click "OK" or "Save" to store the credentials.
+
 This process will create a local copy of the repository on your machine, allowing you to edit files, commit changes, and push updates back to the remote repository on GitHub.
