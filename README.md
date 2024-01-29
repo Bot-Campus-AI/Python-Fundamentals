@@ -15,7 +15,7 @@ To clone and start working with your new Git repository locally, follow these st
 
 
 For Adding Multiple Generic Credentials:
------------------------------------------
+----------------------------------------
 Open Windows Credential Manager.
 Click on "Add a generic credential."
 In the "Internet or network address" field, enter https://github.com/Bot-Campus-AI.
