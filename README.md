@@ -62,5 +62,3 @@ Hello, World!
 
 Thank you for using this simple project to start your Python journey with BotCampus AI. Happy coding!
 ```
-
-This README file provides a clear introduction, explains how to get started, and promotes your organization, BotCampus AI.
