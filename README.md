@@ -5,7 +5,7 @@ Welcome to the Python Data Types tutorial by **BotCampus AI**! This repository i
 ## Directory Structure
 
 This repository is structured to provide a comprehensive learning experience for each data type:
-
+```
 Python-Fundamentals/
 │
 ├── README.md
@@ -38,7 +38,7 @@ Python-Fundamentals/
 │ │ ├── 4.clear_vs_confusing/
 │ │ │ ├── 1.clear_code.py
 │ │ │ ├── 2.confusing_code.py
-
+```
 
 ## Data Types Covered
 
