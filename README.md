@@ -1,64 +1,108 @@
-# Hello World with Python
-
-Welcome to the Hello World project by **BotCampus AI**! This simple project is designed to introduce you to the basics of Python programming. 
-
-## Project Overview
-
-The Hello World program is a classic example that demonstrates the basic syntax of a programming language. In this project, we'll guide you through writing your first Python script.
-
-## Getting Started
-
-Follow these steps to run the `hello_world.py` script:
-
-### Prerequisites
-
-- Python 3.x installed on your computer
-- A code editor like [PyCharm](https://www.jetbrains.com/pycharm/) or [VS Code](https://code.visualstudio.com/)
-
-### Installation
-
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/YourUsername/hello_world.git
-   cd hello_world
-
-2. **Run the Script:**
-   ```sh
-   python hello_world.py
-   ```
-
-### Script Explanation
-
-The `hello_world.py` script is as simple as it gets. Here's the code:
-
-```python
-print("Hello, World!")
-```
-
-When you run this script, it will output:
-```
-Hello, World!
-```
-
-### Understanding the Code
-
-- **print() function:** This function is used to display the specified message on the screen. In this case, it prints `Hello, World!`.
-
-## About BotCampus AI
-
-**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
-
-### Learning Management System
-
-Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
-
-### Contact Us
-
-- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
-- **Email:** support@botcampus.ai
-- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
 
 ---
 
-Thank you for using this simple project to start your Python journey with BotCampus AI. Happy coding!
+# Python Numbers Tutorial: Integers
+
+## Overview
+This tutorial covers the basics of Python integers, including how to define, manipulate, and perform arithmetic operations with them. Integers are a fundamental data type in Python, essential for various programming tasks. By the end of this tutorial, you will understand how to work with integers effectively in Python.
+
+## Table of Contents
+1. [Defining Integers](#defining-integers)
+2. [Basic Arithmetic Operations](#basic-arithmetic-operations)
+3. [Integer Division and Floor Division](#integer-division-and-floor-division)
+4. [Working with Large Integers](#working-with-large-integers)
+5. [Type Conversion](#type-conversion)
+6. [Practical Exercise](#practical-exercise)
+
+## Defining Integers
+In Python, integers are whole numbers without a fractional component. They can be positive, negative, or zero.
+
+```python
+positive_int = 42
+negative_int = -42
+zero = 0
+
+print(positive_int)
+print(negative_int)
+print(zero)
 ```
+
+## Basic Arithmetic Operations
+You can perform standard arithmetic operations with integers in Python, such as addition, subtraction, multiplication, and division.
+
+```python
+a = 10
+b = 3
+
+# Addition
+addition = a + b
+
+# Subtraction
+subtraction = a - b
+
+# Multiplication
+multiplication = a * b
+
+# Division
+division = a / b  # This returns a float
+
+# Floor Division
+floor_division = a // b  # This returns an integer
+
+# Modulus
+modulus = a % b
+
+# Exponentiation
+exponentiation = a ** b
+
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
+print("Floor Division:", floor_division)
+print("Modulus:", modulus)
+print("Exponentiation:", exponentiation)
+```
+
+## Integer Division and Floor Division
+Regular division using `/` returns a float, while floor division using `//` returns an integer by discarding the fractional part.
+
+```python
+# Regular division
+regular_div = 10 / 3  # Returns 3.333...
+
+# Floor division
+floor_div = 10 // 3  # Returns 3
+
+print("Regular Division:", regular_div)
+print("Floor Division:", floor_div)
+```
+
+## Working with Large Integers
+Python supports arbitrarily large integers, allowing you to work with extremely large numbers without any issues.
+
+```python
+large_int = 123456789012345678901234567890
+print("Large Integer:", large_int)
+```
+
+## Type Conversion
+You can convert other data types to integers using the `int()` function. For example, converting a string or a float to an integer.
+
+```python
+# Convert string to integer
+num_str = "100"
+num_int = int(num_str)
+
+# Convert float to integer
+num_float = 12.34
+num_int_from_float = int(num_float)
+
+print("String to Integer:", num_int)
+print("Float to Integer:", num_int_from_float)
+```
+
+## Practical Exercise
+Create integer variables and perform various arithmetic operations on them. Try converting strings and floats to integers and see the results.
+
+---
