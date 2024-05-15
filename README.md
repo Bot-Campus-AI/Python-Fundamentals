@@ -1,6 +1,3 @@
-### README.md for `hello_world.py`
-
-```markdown
 # Hello World with Python
 
 Welcome to the Hello World project by **BotCampus AI**! This simple project is designed to introduce you to the basics of Python programming. 
@@ -22,9 +19,8 @@ Follow these steps to run the `hello_world.py` script:
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/Bot-Campus-AI/Python-Fundamentals.git
-   cd Python-Fundamentals
-   ```
+   git clone https://github.com/YourUsername/hello_world.git
+   cd hello_world
 
 2. **Run the Script:**
    ```sh
