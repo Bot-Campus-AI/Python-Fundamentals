@@ -52,6 +52,10 @@ Hello, World!
 
 **BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
 
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
 ### Contact Us
 
 - **Website:** [www.botcampus.ai](https://www.botcampus.ai)
