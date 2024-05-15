@@ -1,64 +1,108 @@
-# Hello World with Python
-
-Welcome to the Hello World project by **BotCampus AI**! This simple project is designed to introduce you to the basics of Python programming. 
-
-## Project Overview
-
-The Hello World program is a classic example that demonstrates the basic syntax of a programming language. In this project, we'll guide you through writing your first Python script.
-
-## Getting Started
-
-Follow these steps to run the `hello_world.py` script:
-
-### Prerequisites
-
-- Python 3.x installed on your computer
-- A code editor like [PyCharm](https://www.jetbrains.com/pycharm/) or [VS Code](https://code.visualstudio.com/)
-
-### Installation
-
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/YourUsername/hello_world.git
-   cd hello_world
-
-2. **Run the Script:**
-   ```sh
-   python hello_world.py
-   ```
-
-### Script Explanation
-
-The `hello_world.py` script is as simple as it gets. Here's the code:
-
-```python
-print("Hello, World!")
-```
-
-When you run this script, it will output:
-```
-Hello, World!
-```
-
-### Understanding the Code
-
-- **print() function:** This function is used to display the specified message on the screen. In this case, it prints `Hello, World!`.
-
-## About BotCampus AI
-
-**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
-
-### Learning Management System
-
-Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
-
-### Contact Us
-
-- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
-- **Email:** support@botcampus.ai
-- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
 
 ---
 
-Thank you for using this simple project to start your Python journey with BotCampus AI. Happy coding!
+# Python Practical Project: Building a Simple Contact Book
+
+## Overview
+This project demonstrates how to combine different data types in Python by building a simple contact book application. You'll learn how to create, view, and search for contacts using strings, integers, and booleans.
+
+## Table of Contents
+1. [Setting Up the Project](#setting-up-the-project)
+2. [Adding a Contact](#adding-a-contact)
+3. [Viewing Contacts](#viewing-contacts)
+4. [Searching for a Contact](#searching-for-a-contact)
+5. [Main Program Loop](#main-program-loop)
+6. [Practical Exercise](#practical-exercise)
+
+## Setting Up the Project
+First, set up your project structure and create a list to store your contacts.
+
+```python
+# List to store contacts
+contacts = []
 ```
+
+## Adding a Contact
+Create a function to add a contact to the contact book. This function will prompt the user to input the contact's name, phone number, and email address.
+
+```python
+def add_contact():
+    name = input("Enter contact name: ")
+    phone = int(input("Enter contact phone number: "))
+    email = input("Enter contact email address: ")
+    contact = {"name": name, "phone": phone, "email": email}
+    contacts.append(contact)
+    print("Contact added successfully!")
+
+# Adding a contact for demonstration
+add_contact()
+print(contacts)
+```
+
+## Viewing Contacts
+Create a function to view all contacts stored in the contact book.
+
+```python
+def view_contacts():
+    if not contacts:
+        print("No contacts found.")
+    else:
+        for contact in contacts:
+            print(f"Name: {contact['name']}, Phone: {contact['phone']}, Email: {contact['email']}")
+
+# Viewing contacts for demonstration
+view_contacts()
+```
+
+## Searching for a Contact
+Create a function to search for a contact by name.
+
+```python
+def search_contact(name):
+    found = False
+    for contact in contacts:
+        if contact['name'].lower() == name.lower():
+            print(f"Found contact: Name: {contact['name']}, Phone: {contact['phone']}, Email: {contact['email']}")
+            found = True
+            break
+    if not found:
+        print("Contact not found.")
+
+# Searching for a contact for demonstration
+search_contact("Alice")
+```
+
+## Main Program Loop
+Put everything together in a main program loop that allows the user to choose between adding a contact, viewing contacts, and searching for a contact.
+
+```python
+def main():
+    while True:
+        print("\nContact Book Menu:")
+        print("1. Add Contact")
+        print("2. View Contacts")
+        print("3. Search Contact")
+        print("4. Exit")
+        choice = input("Enter your choice: ")
+
+        if choice == '1':
+            add_contact()
+        elif choice == '2':
+            view_contacts()
+        elif choice == '3':
+            name = input("Enter contact name to search: ")
+            search_contact(name)
+        elif choice == '4':
+            print("Exiting the contact book. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+# Running the main program loop
+main()
+```
+
+## Practical Exercise
+Extend the contact book application by adding more features, such as deleting a contact or updating contact information. Experiment with different data types and see how they can be used together in a real-world application.
+
+---
