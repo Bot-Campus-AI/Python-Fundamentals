@@ -87,5 +87,3 @@ Current stack size: 2
 ```
 
 ---
-
-Feel free to use this README file for your GitHub repository. If you need further adjustments or additions, let me know!
