@@ -1,64 +1,91 @@
-# Hello World with Python
+# Python Stack Operations Tutorial
 
-Welcome to the Hello World project by **BotCampus AI**! This simple project is designed to introduce you to the basics of Python programming. 
+## Overview
+This tutorial covers the basics of implementing and using a stack in Python. A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. We'll explore how to perform basic stack operations such as push, pop, peek, checking if the stack is empty, and getting the size of the stack.
 
-## Project Overview
+## Table of Contents
+1. [Creating a Stack](#creating-a-stack)
+2. [Push Operation](#push-operation)
+3. [Pop Operation](#pop-operation)
+4. [Peek Operation](#peek-operation)
+5. [IsEmpty Operation](#isempty-operation)
+6. [Size Operation](#size-operation)
 
-The Hello World program is a classic example that demonstrates the basic syntax of a programming language. In this project, we'll guide you through writing your first Python script.
-
-## Getting Started
-
-Follow these steps to run the `hello_world.py` script:
-
-### Prerequisites
-
-- Python 3.x installed on your computer
-- A code editor like [PyCharm](https://www.jetbrains.com/pycharm/) or [VS Code](https://code.visualstudio.com/)
-
-### Installation
-
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/YourUsername/hello_world.git
-   cd hello_world
-
-2. **Run the Script:**
-   ```sh
-   python hello_world.py
-   ```
-
-### Script Explanation
-
-The `hello_world.py` script is as simple as it gets. Here's the code:
+## Creating a Stack
+A stack can be created using a Python list. Here's how you can initialize an empty stack.
 
 ```python
-print("Hello, World!")
+# Creating a stack
+stack = []
 ```
 
-When you run this script, it will output:
+## Push Operation
+The push operation adds an element to the top of the stack. This can be done using the `append()` method.
+
+```python
+# Push operation
+stack.append(1)
+stack.append(2)
+stack.append(3)
+print("Stack after push operations:", stack)
 ```
-Hello, World!
+**Output:**
+```
+Stack after push operations: [1, 2, 3]
 ```
 
-### Understanding the Code
+## Pop Operation
+The pop operation removes the top element from the stack. This can be done using the `pop()` method.
 
-- **print() function:** This function is used to display the specified message on the screen. In this case, it prints `Hello, World!`.
+```python
+# Pop operation
+stack.pop()
+print("Stack after pop operation:", stack)
+```
+**Output:**
+```
+Stack after pop operation: [1, 2]
+```
 
-## About BotCampus AI
+## Peek Operation
+The peek operation retrieves the top element of the stack without removing it. This can be done by accessing the last element of the list.
 
-**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+```python
+# Peek operation
+top_element = stack[-1]
+print("Top element after pop operation:", top_element)
+```
+**Output:**
+```
+Top element after pop operation: 2
+```
 
-### Learning Management System
+## IsEmpty Operation
+The `IsEmpty` operation checks if the stack is empty. This can be done by checking the length of the list.
 
-Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+```python
+# IsEmpty operation
+is_empty = len(stack) == 0
+print("Is the stack empty?", is_empty)
+```
+**Output:**
+```
+Is the stack empty? False
+```
 
-### Contact Us
+## Size Operation
+The size operation returns the current size of the stack. This can be done using the `len()` function.
 
-- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
-- **Email:** support@botcampus.ai
-- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+```python
+# Size operation
+stack_size = len(stack)
+print("Current stack size:", stack_size)
+```
+**Output:**
+```
+Current stack size: 2
+```
 
 ---
 
-Thank you for using this simple project to start your Python journey with BotCampus AI. Happy coding!
-```
+Feel free to use this README file for your GitHub repository. If you need further adjustments or additions, let me know!
