@@ -1,7 +1,7 @@
 person = {
-    "name": "Alice",
+    "name": "John",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "john@botcampus.ai"
 }
 
 # Using dictionary methods

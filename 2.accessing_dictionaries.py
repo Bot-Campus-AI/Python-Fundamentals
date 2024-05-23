@@ -1,7 +1,7 @@
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 # Accessing values

@@ -23,9 +23,9 @@ Dictionaries are collections of key-value pairs. Each key is unique and maps to 
 # Creating dictionaries
 empty_dict = {}
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 print(empty_dict)
@@ -37,9 +37,9 @@ You can access values in a dictionary using their corresponding keys.
 
 ```python
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 # Accessing values
@@ -55,14 +55,14 @@ You can modify values in a dictionary by assigning a new value to an existing ke
 
 ```python
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 # Modifying values
 person["age"] = 31
-person["email"] = "alice_new@example.com"
+person["email"] = "mark_new@example.com"
 
 print(person)
 ```
@@ -72,9 +72,9 @@ You can add new key-value pairs to a dictionary and remove existing ones.
 
 ```python
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 # Adding a new key-value pair
@@ -91,9 +91,9 @@ Dictionaries come with a variety of useful methods. Let's explore a few common o
 
 ```python
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 # Using dictionary methods
@@ -111,9 +111,9 @@ You can iterate over the keys, values, or key-value pairs in a dictionary using 
 
 ```python
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 # Iterating over keys
@@ -134,7 +134,7 @@ Dictionaries can also be nested, meaning you can have dictionaries within dictio
 
 ```python
 people = {
-    "person1": {"name": "Alice", "age": 30},
+    "person1": {"name": "Mark", "age": 30},
     "person2": {"name": "Bob", "age": 25}
 }
 

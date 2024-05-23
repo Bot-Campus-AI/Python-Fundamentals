@@ -1,9 +1,9 @@
 # Creating dictionaries
 empty_dict = {}
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 print(empty_dict)

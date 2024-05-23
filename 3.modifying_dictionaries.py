@@ -1,11 +1,11 @@
 person = {
-    "name": "Alice",
+    "name": "Mark",
     "age": 30,
-    "email": "alice@example.com"
+    "email": "mark@example.com"
 }
 
 # Modifying values
 person["age"] = 31
-person["email"] = "alice_new@example.com"
+person["email"] = "mark_new@example.com"
 
 print(person)
