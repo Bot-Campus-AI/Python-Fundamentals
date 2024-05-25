@@ -16,6 +16,7 @@ This tutorial covers the basics of Python functions, including how to define, us
 7. [Variable-Length Arguments](#variable-length-arguments)
 8. [Scope and Lifetime of Variables](#scope-and-lifetime-of-variables)
 9. [Practical Exercise](#practical-exercise)
+10. [About BotCampus AI](#about-botcampus-ai)
 
 ## What are Functions?
 Functions are blocks of code that perform a specific task. They can take inputs, called parameters, and return an output. Functions help you organize your code into reusable pieces.
@@ -123,3 +124,24 @@ my_function()
 Write a function that takes a list of numbers and returns the average. Test your function with different lists of numbers.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
