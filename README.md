@@ -114,5 +114,5 @@ Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for mo
 
 ---
 
-Thank you for using this simple project to start your Python journey with BotCampus AI. Happy coding!
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
 ```
