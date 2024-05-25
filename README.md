@@ -16,6 +16,7 @@ This tutorial covers the basics of Python lists, including how to create, access
 7. [Iterating Over Lists](#iterating-over-lists)
 8. [List Comprehensions](#list-comprehensions)
 9. [Practical Exercise](#practical-exercise)
+10. [About BotCampus AI](#about-botcampus-ai)
 
 ## What are Lists?
 Lists are ordered collections of items that can store elements of different data types. They are defined using square brackets.
@@ -138,3 +139,24 @@ print(squares)
 Create a list of your favorite fruits and try out different list operations: adding, removing, slicing, and iterating over the elements.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
