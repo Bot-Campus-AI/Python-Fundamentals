@@ -158,6 +158,5 @@ Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for mo
 - **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
 
 ---
-
 Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
 ```
