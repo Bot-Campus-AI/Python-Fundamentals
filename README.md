@@ -12,6 +12,7 @@ This tutorial covers the basics of encapsulation in Object-Oriented Programming 
 3. [Converting Public Attributes to Private Attributes](#converting-public-attributes-to-private-attributes)
 4. [Using Getter and Setter Methods](#using-getter-and-setter-methods)
 5. [Using Property Decorators](#using-property-decorators)
+6. [About BotCampus AI](#about-botcampus-ai)
 
 ## What is Encapsulation?
 Encapsulation is one of the four fundamental OOP concepts. It allows us to hide the internal state of an object and require all interaction to be performed through the object's methods. This protects the integrity of the data and prevents external code from directly accessing and modifying it.
@@ -123,3 +124,24 @@ In this section, we covered the concept of encapsulation in Python. We defined a
 In the next part of our series, we'll dive into polymorphism, another important OOP concept. Stay tuned!
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
