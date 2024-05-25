@@ -15,6 +15,7 @@ This tutorial covers the basics of Python dictionaries, including how to create,
 6. [Iterating Over Dictionaries](#iterating-over-dictionaries)
 7. [Nested Dictionaries](#nested-dictionaries)
 8. [Practical Exercise](#practical-exercise)
+9. [About BotCampus AI](#about-botcampus-ai)
 
 ## What are Dictionaries?
 Dictionaries are collections of key-value pairs. Each key is unique and maps to a value. They are defined using curly braces `{}`.
@@ -147,3 +148,24 @@ print(people["person2"]["age"])
 Create a dictionary to store information about your favorite books, including title, author, and year of publication. Experiment with adding, modifying, and removing elements, and try iterating over the dictionary.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
