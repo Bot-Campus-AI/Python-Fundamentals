@@ -14,6 +14,7 @@ This tutorial covers the basics of Python conditional statements, including how 
 5. [Nested Conditional Statements](#nested-conditional-statements)
 6. [Logical Operators with Conditional Statements](#logical-operators-with-conditional-statements)
 7. [Practical Exercise](#practical-exercise)
+8. [About BotCampus AI](#about-botcampus-ai)
 
 ## What are Conditional Statements?
 Conditional statements control the flow of your program based on certain conditions. They allow your program to make decisions and execute different code blocks accordingly.
@@ -95,3 +96,24 @@ if not (number > 10):
 Write a program that takes an input number from the user and checks if the number is positive, negative, or zero. Use `if`, `elif`, and `else` statements to handle the conditions.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
