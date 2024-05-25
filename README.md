@@ -14,6 +14,7 @@ This tutorial covers the basics of Python booleans, including how to define, use
 5. [Booleans in Loops](#booleans-in-loops)
 6. [Type Conversion](#type-conversion)
 7. [Practical Exercise](#practical-exercise)
+8. [About BotCampus AI](#about-botcampus-ai)
 
 ## Defining Booleans
 In Python, booleans represent one of two values: `True` or `False`.
@@ -111,3 +112,25 @@ print("Boolean from empty string:", bool_from_empty_str)
 Create boolean variables and use them in various conditional statements and loops. Try converting different data types to booleans and see the results.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
+
