@@ -13,6 +13,7 @@ This tutorial covers the basics of inheritance in Object-Oriented Programming (O
 4. [Inheriting Attributes and Methods](#inheriting-attributes-and-methods)
 5. [Extending Functionality](#extending-functionality)
 6. [Understanding `super()`](#understanding-super)
+7. [About BotCampus AI](#about-botcampus-ai)
 
 ## What is Inheritance?
 Inheritance is a way to form new classes using classes that have already been defined. The new class, known as the derived class, inherits attributes and methods from the existing class, called the base class.
@@ -117,3 +118,24 @@ In this section, we covered the basics of inheritance in Python. We defined a ba
 In the next part of our series, we'll dive into encapsulation, another important OOP concept. Stay tuned!
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
