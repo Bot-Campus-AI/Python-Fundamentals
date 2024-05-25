@@ -13,6 +13,7 @@ This project demonstrates how to combine different data types in Python by build
 4. [Searching for a Contact](#searching-for-a-contact)
 5. [Main Program Loop](#main-program-loop)
 6. [Practical Exercise](#practical-exercise)
+7. [About BotCampus AI](#about-botcampus-ai)
 
 ## Setting Up the Project
 First, set up your project structure and create a list to store your contacts.
@@ -106,3 +107,24 @@ main()
 Extend the contact book application by adding more features, such as deleting a contact or updating contact information. Experiment with different data types and see how they can be used together in a real-world application.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
