@@ -14,6 +14,7 @@ This tutorial covers the basics of Python strings, including how to define, mani
 5. [String Formatting](#string-formatting)
 6. [String Methods](#string-methods)
 7. [Practical Exercise](#practical-exercise)
+8. [About BotCampus AI](#about-botcampus-ai)
 
 ## Defining Strings
 In Python, strings can be defined using single quotes, double quotes, or triple quotes for multi-line strings.
@@ -113,3 +114,24 @@ print(replaced_text)
 Create a string variable and try out different string methods. Experiment with concatenation, formatting, and any other string operations we've covered.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
