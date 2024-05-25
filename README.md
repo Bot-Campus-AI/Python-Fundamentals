@@ -13,6 +13,7 @@ This tutorial covers the basics of Python sets, including how to create, add, re
 4. [Iterating Over Sets](#iterating-over-sets)
 5. [Set Comprehensions](#set-comprehensions)
 6. [Practical Exercise](#practical-exercise)
+7. [About BotCampus AI](#about-botcampus-ai)
 
 ## What are Sets?
 Sets are collections of unique items. Unlike lists or tuples, sets do not allow duplicate elements. They are defined using curly braces `{}` or the `set()` function.
@@ -114,5 +115,9 @@ Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for mo
 
 ---
 
+
 Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
-```
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
