@@ -10,6 +10,7 @@ This tutorial covers the basics of implementing and using a queue in Python. A q
 4. [Peek Operation](#peek-operation)
 5. [IsEmpty Operation](#isempty-operation)
 6. [Size Operation](#size-operation)
+7. [About BotCampus AI](#about-botcampus-ai)
 
 ## Creating a Queue
 A queue can be created using a Python list. Here's how you can initialize an empty queue.
@@ -87,3 +88,25 @@ Current queue size: 2
 ```
 
 ---
+
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
