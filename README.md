@@ -12,6 +12,8 @@ project/
 └── main.py
 ```
 
+[About BotCampus AI](#about-botcampus-ai)
+
 ## Files and Their Contents
 
 ### File: shapes.py
@@ -102,3 +104,25 @@ print_area(triangle)   # Output: The area is: 10
    - **Demonstration**: Calls `print_area` for each instance to demonstrate polymorphism.
 
 By following this structure, you should be able to import the `Triangle` class without any import errors and successfully run the program to calculate and print the areas of different shapes.
+
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
