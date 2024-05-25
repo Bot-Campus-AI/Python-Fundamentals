@@ -14,6 +14,7 @@ This tutorial covers the basics of Object-Oriented Programming (OOP) in Python, 
 5. [Class Attributes vs. Instance Attributes](#class-attributes-vs-instance-attributes)
 6. [Modifying Attributes](#modifying-attributes)
 7. [Encapsulation](#encapsulation)
+8. [About BotCampus AI](#about-botcampus-ai)
 
 ## What are Classes and Objects?
 Classes are blueprints for creating objects. An object is an instance of a class. Classes encapsulate data for the object and methods to manipulate that data.
@@ -126,3 +127,24 @@ print(f"New age: {my_dog.get_age()}")
 ```
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
