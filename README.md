@@ -39,6 +39,7 @@ Python-Fundamentals/
 │ │ │ ├── 1.clear_code.py
 │ │ │ ├── 2.confusing_code.py
 ```
+[About BotCampus AI](#about-botcampus-ai)
 
 ## Data Types Covered
 
@@ -109,3 +110,9 @@ Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for mo
 - **Website:** [www.botcampus.ai](https://www.botcampus.ai)
 - **Email:** support@botcampus.ai
 - **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
