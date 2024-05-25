@@ -17,6 +17,7 @@ This tutorial covers the basics of using loops in Python, including how to use `
 8. [Nested Loops](#nested-loops)
 9. [Loop Else Clause](#loop-else-clause)
 10. [Practical Exercise](#practical-exercise)
+11. [About BotCampus AI](#about-botcampus-ai)
 
 ## What are Loops?
 Loops are used to execute a block of code repeatedly as long as a certain condition is met. They help in automating repetitive tasks, making your code more efficient and easier to manage.
@@ -111,3 +112,24 @@ else:
 Write a program that prints all the prime numbers between 1 and 20 using loops. Use `for` and `while` loops where appropriate.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
