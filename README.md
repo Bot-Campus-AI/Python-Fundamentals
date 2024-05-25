@@ -1,48 +1,107 @@
-# Hello World with Python
+# Python OOP Tutorial: Composition
 
-Welcome to the Hello World project by **BotCampus AI**! This simple project is designed to introduce you to the basics of Python programming. 
+## Overview
+This tutorial covers the concept of composition in Object-Oriented Programming (OOP) using Python. Composition allows us to build complex objects by combining simpler ones, promoting code reuse and flexibility.
 
-## Project Overview
+## Table of Contents
+1. [What is Composition?](#what-is-composition)
+2. [Defining Simple Classes](#defining-simple-classes)
+3. [Defining a Complex Class Using Composition](#defining-a-complex-class-using-composition)
+4. [Using the Complex Class](#using-the-complex-class)
+5. [Summary](#summary)
+6. [Next Steps](#next-steps)
+7. [How to Run](#how-to-run)
+8. [Explanation](#explanation)
+9. [About BotCampus AI](#about-botcampus-ai)
 
-The Hello World program is a classic example that demonstrates the basic syntax of a programming language. In this project, we'll guide you through writing your first Python script.
+## What is Composition?
+Composition is a design principle where one class contains an object of another class to achieve code reuse and flexibility. It allows us to build complex objects by combining simpler ones.
 
-## Getting Started
+## Defining Simple Classes
+Let's start by defining some simple classes that we will use for composition.
 
-Follow these steps to run the `hello_world.py` script:
+**File:** `engine.py`
+```python
+class Engine:
+    def start(self):
+        return "Engine started"
 
-### Prerequisites
+    def stop(self):
+        return "Engine stopped"
+```
 
-- Python 3.x installed on your computer
-- A code editor like [PyCharm](https://www.jetbrains.com/pycharm/) or [VS Code](https://code.visualstudio.com/)
+**File:** `transmission.py`
+```python
+class Transmission:
+    def engage(self):
+        return "Transmission engaged"
 
-### Installation
+    def disengage(self):
+        return "Transmission disengaged"
+```
 
-1. **Clone the Repository:**
+## Defining a Complex Class Using Composition
+Now, let's define a complex class `Car` that uses `Engine` and `Transmission` objects through composition.
+
+**File:** `car.py`
+```python
+from engine import Engine
+from transmission import Transmission
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()
+        self.transmission = Transmission()
+
+    def start(self):
+        return f"{self.engine.start()} and {self.transmission.engage()}"
+
+    def stop(self):
+        return f"{self.transmission.disengage()} and {self.engine.stop()}"
+```
+
+## Using the Complex Class
+Let's create an instance of the `Car` class and use its methods.
+
+**File:** `main.py`
+```python
+from car import Car
+
+# Creating an instance of Car
+my_car = Car()
+
+# Using the start and stop methods
+print(my_car.start())  # Output: Engine started and Transmission engaged
+print(my_car.stop())   # Output: Transmission disengaged and Engine stopped
+```
+
+## Summary
+In this section, we covered the concept of composition in Python. We defined simple classes `Engine` and `Transmission`, and then created a complex class `Car` that uses these objects through composition. Composition allows us to build complex objects by combining simpler ones, promoting code reuse and flexibility.
+
+## Next Steps
+In the next part of our series, we'll explore another important OOP concept: aggregation. Stay tuned!
+
+## How to Run
+1. Save `engine.py`, `transmission.py`, `car.py`, and `main.py` in the same directory (e.g., `project`).
+2. Run `main.py` using your Python interpreter:
    ```sh
-   git clone https://github.com/YourUsername/hello_world.git
-   cd hello_world
-
-2. **Run the Script:**
-   ```sh
-   python hello_world.py
+   python main.py
    ```
 
-### Script Explanation
+## Explanation
+1. **engine.py**:
+   - **Engine**: A class with `start` and `stop` methods.
 
-The `hello_world.py` script is as simple as it gets. Here's the code:
+2. **transmission.py**:
+   - **Transmission**: A class with `engage` and `disengage` methods.
 
-```python
-print("Hello, World!")
-```
+3. **car.py**:
+   - **Car**: A class that uses `Engine` and `Transmission` objects through composition.
+   - **Methods**: The `start` method starts the engine and engages the transmission, while the `stop` method disengages the transmission and stops the engine.
 
-When you run this script, it will output:
-```
-Hello, World!
-```
-
-### Understanding the Code
-
-- **print() function:** This function is used to display the specified message on the screen. In this case, it prints `Hello, World!`.
+4. **main.py**:
+   - **Imports**: Imports the `Car` class from `car.py`.
+   - **Instance**: Creates an instance of the `Car` class and demonstrates the use of composition by calling the `start` and `stop` methods.
 
 ## About BotCampus AI
 
@@ -60,5 +119,8 @@ Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for mo
 
 ---
 
-Thank you for using this simple project to start your Python journey with BotCampus AI. Happy coding!
-```
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
