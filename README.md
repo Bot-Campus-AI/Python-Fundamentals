@@ -13,6 +13,8 @@ This tutorial covers the basics of Python integers, including how to define, man
 4. [Working with Large Integers](#working-with-large-integers)
 5. [Type Conversion](#type-conversion)
 6. [Practical Exercise](#practical-exercise)
+7. [About BotCampus AI](#about-botcampus-ai)
+
 
 ## Defining Integers
 In Python, integers are whole numbers without a fractional component. They can be positive, negative, or zero.
@@ -106,3 +108,24 @@ print("Float to Integer:", num_int_from_float)
 Create integer variables and perform various arithmetic operations on them. Try converting strings and floats to integers and see the results.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
