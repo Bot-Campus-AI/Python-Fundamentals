@@ -16,6 +16,7 @@ This tutorial covers the basics of Python tuples, including how to create, acces
 7. [Iterating Over Tuples](#iterating-over-tuples)
 8. [Tuple Unpacking](#tuple-unpacking)
 9. [Practical Exercise](#practical-exercise)
+10. [About BotCampus AI](#about-botcampus-ai)
 
 ## What are Tuples?
 Tuples are ordered collections of items that are immutable. They are defined using parentheses `()` and can store elements of different data types.
@@ -142,7 +143,6 @@ Create a tuple to store information about your favorite movies, including title,
 ---
 
 
-
 ## About BotCampus AI
 
 **BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
@@ -158,5 +158,9 @@ Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for mo
 - **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
 
 ---
+
 Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
-```
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
