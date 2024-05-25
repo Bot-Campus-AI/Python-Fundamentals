@@ -12,6 +12,8 @@ This tutorial covers the basics of abstract classes and interfaces in Object-Ori
 6. [Complete Example with Files](#complete-example-with-files)
 7. [How to Run](#how-to-run)
 8. [Explanation](#explanation)
+9. [About BotCampus AI](#about-botcampus-ai)
+
 
 ## What are Interfaces?
 An interface is a class that contains only abstract methods. It defines a set of methods that the implementing class must provide. In Python, we can use abstract classes to create interfaces.
@@ -208,3 +210,24 @@ print(processor.process_payment(100))  # Output: Processing credit card payment 
 By following this structure, you can implement abstract classes and interfaces in Python, and demonstrate their usage with clear examples, differentiating between interfaces and abstract base classes effectively.
 
 ---
+## About BotCampus AI
+
+**BotCampus AI** is a leading provider of AI and machine learning education. Our mission is to empower individuals and organizations with the knowledge and skills needed to thrive in the AI-driven world.
+
+### Learning Management System
+
+Access our LMS portal at [learn.botcampus.ai](https://learn.botcampus.ai) for more courses and resources.
+
+### Contact Us
+
+- **Website:** [www.botcampus.ai](https://www.botcampus.ai)
+- **Email:** support@botcampus.ai
+- **GitHub:** [BotCampus AI on GitHub](https://github.com/Bot-Campus-AI/Python-Fundamentals)
+
+---
+
+Thank you for embarking on your Python journey with BotCampus AI through this project. Happy coding!
+
+---
+
+© 2024 BotCampus AI. All rights reserved.
