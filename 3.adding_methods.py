@@ -3,6 +3,13 @@ class Dog:
         self.name = name
         self.age = age
 
-# Creating an object with attributes
+    def description(self):
+        return f"{self.name} is {self.age} years old"
+
+    def speak(self, sound):
+        return f"{self.name} says {sound}"
+
+# Creating an object and calling methods
 my_dog = Dog("Buddy", 3)
-print(f"My dog's name is {my_dog.name} and he is {my_dog.age} years old.")
+print(my_dog.description())
+print(my_dog.speak("Woof Woof"))
