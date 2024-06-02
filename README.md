@@ -55,9 +55,9 @@ import csv
 # Data to write
 data = [
     ['Name', 'Age', 'City'],
-    ['Alice', '30', 'New York'],
-    ['Bob', '25', 'Los Angeles'],
-    ['Charlie', '35', 'Chicago']
+    ['Raj', '30', 'Delhi'],
+    ['Pushpa', '25', 'Bangalore'],
+    ['Priya', '35', 'Chennai']
 ]
 
 # Open the CSV file in write mode
@@ -66,6 +66,7 @@ with open('output.csv', mode='w', newline='') as file:
     # Write the data row by row
     for row in data:
         csv_writer.writerow(row)
+
 ```
 
 ## Writing CSV Files with Headers
@@ -77,9 +78,9 @@ import csv
 
 # Data to write
 data = [
-    {'Name': 'Alice', 'Age': '30', 'City': 'New York'},
-    {'Name': 'Bob', 'Age': '25', 'City': 'Los Angeles'},
-    {'Name': 'Charlie', 'Age': '35', 'City': 'Chicago'}
+    {'Name': 'Raj', 'Age': '30', 'City': 'New York'},
+    {'Name': 'Pushpa', 'Age': '25', 'City': 'Los Angeles'},
+    {'Name': 'Priya', 'Age': '35', 'City': 'Chicago'}
 ]
 
 # Open the CSV file in write mode
@@ -93,6 +94,7 @@ with open('output_with_headers.csv', mode='w', newline='') as file:
     # Write the data row by row
     for row in data:
         csv_writer.writerow(row)
+
 ```
 
 ## Handling File Exceptions

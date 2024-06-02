@@ -3,9 +3,9 @@ import csv
 # Data to write
 data = [
     ['Name', 'Age', 'City'],
-    ['Alice', '30', 'New York'],
-    ['Bob', '25', 'Los Angeles'],
-    ['Charlie', '35', 'Chicago']
+    ['Raj', '30', 'Delhi'],
+    ['Pushpa', '25', 'Bangalore'],
+    ['Priya', '35', 'Chennai']
 ]
 
 # Open the CSV file in write mode

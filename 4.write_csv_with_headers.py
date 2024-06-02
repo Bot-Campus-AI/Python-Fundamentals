@@ -2,9 +2,9 @@ import csv
 
 # Data to write
 data = [
-    {'Name': 'Alice', 'Age': '30', 'City': 'New York'},
-    {'Name': 'Bob', 'Age': '25', 'City': 'Los Angeles'},
-    {'Name': 'Charlie', 'Age': '35', 'City': 'Chicago'}
+    {'Name': 'Raj', 'Age': '30', 'City': 'New York'},
+    {'Name': 'Pushpa', 'Age': '25', 'City': 'Los Angeles'},
+    {'Name': 'Priya', 'Age': '35', 'City': 'Chicago'}
 ]
 
 # Open the CSV file in write mode
