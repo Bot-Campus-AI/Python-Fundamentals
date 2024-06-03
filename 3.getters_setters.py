@@ -12,8 +12,9 @@ class Person:
         else:
             print("Age must be a positive number")
 
+
 # Creating an object of the Person class
-person = Person("Alice", 30)
+person = Person("John", 30)
 print(f"Person's age: {person.get_age()}")
 
 # Using the setter method to update the age
