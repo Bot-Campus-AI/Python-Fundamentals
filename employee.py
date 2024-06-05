@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 class Employee(ABC):
     @abstractmethod
     def calculate_salary(self):
@@ -8,6 +9,7 @@ class Employee(ABC):
     def describe_role(self):
         return "This is an employee"
 
+
 class FullTimeEmployee(Employee):
     def __init__(self, name, monthly_salary):
         self.name = name
@@ -15,6 +17,7 @@ class FullTimeEmployee(Employee):
 
     def calculate_salary(self):
         return self.monthly_salary
+
 
 class PartTimeEmployee(Employee):
     def __init__(self, name, hourly_rate, hours_worked):

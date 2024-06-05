@@ -8,8 +8,8 @@ def print_employee_info(employee):
 
 
 # Creating instances of FullTimeEmployee and PartTimeEmployee
-full_time_employee = FullTimeEmployee("Alice", 5000)
-part_time_employee = PartTimeEmployee("Bob", 20, 100)
+full_time_employee = FullTimeEmployee("Martin", 5000)
+part_time_employee = PartTimeEmployee("Luther", 20, 100)
 
 # Using the function with different objects
 print_employee_info(full_time_employee)  # Output: This is an employee. Salary: $5000
