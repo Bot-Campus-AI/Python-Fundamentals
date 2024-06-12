@@ -16,17 +16,11 @@ This tutorial covers basic debugging techniques in Python. Debugging is an essen
 ## Understanding Debugging
 Debugging is the process of finding and fixing errors or bugs in your code. It's a crucial part of the development process, helping you ensure that your programs run smoothly and correctly.
 
-**Visuals:**
-- Diagram of the debugging process: identifying the bug, locating the source, fixing the error, and testing the fix.
-
 ## Common Types of Errors
 There are three main types of errors in programming:
 1. **Syntax Errors:** Mistakes in the code structure.
 2. **Runtime Errors:** Errors that occur while the program is running.
 3. **Logic Errors:** The program runs without crashing but produces incorrect results.
-
-**Visuals:**
-- Examples of each type of error with brief descriptions.
 
 ## Print Statements for Debugging
 One of the simplest and most effective debugging techniques is using print statements to track the flow of your program and check the values of variables.
@@ -46,10 +40,6 @@ divide(10, 2)
 divide(10, 0)
 ```
 
-**Visuals:**
-- Code being written and executed, displaying the output.
-- How print statements help track the program's flow and variable values.
-
 ## Using Assertions
 Assertions are statements that check if a condition is true. If the condition is false, the program will raise an `AssertionError`. They are useful for catching bugs early in the development process.
 
@@ -62,10 +52,6 @@ def divide(a, b):
 print(divide(10, 2))
 print(divide(10, 0))
 ```
-
-**Visuals:**
-- Code being written and executed, displaying the output.
-- How assertions can help catch bugs by verifying assumptions in your code.
 
 ## Using the Built-in Debugger (pdb)
 Python comes with a built-in debugger called `pdb`. It allows you to set breakpoints, step through your code, and inspect variables.
@@ -84,31 +70,6 @@ print(divide(10, 2))
 print(divide(10, 0))
 ```
 
-**Visuals:**
-- Code being written and executed, demonstrating the use of `pdb`.
-- Basic `pdb` commands: `n` (next), `c` (continue), `q` (quit), `p` (print variable).
-
-## Using an Integrated Development Environment (IDE)
-Many modern IDEs, like PyCharm and VSCode, come with powerful debugging tools. These tools provide graphical interfaces for setting breakpoints, stepping through code, and inspecting variables.
-
-**Example: Debugging in PyCharm**
-- Open a Python file in PyCharm.
-- Set a breakpoint by clicking in the gutter next to a line of code.
-- Run the debugger and step through the code using the debugging toolbar.
-
-**Visuals:**
-- PyCharm interface with breakpoints and the debugging toolbar.
-- Stepping through the code and inspecting variables.
-
-## Best Practices for Debugging
-Here are some best practices for effective debugging:
-1. **Reproduce the Bug:** Ensure you can consistently reproduce the bug.
-2. **Simplify the Code:** Isolate the problematic code to a small, manageable example.
-3. **Use Version Control:** Keep track of changes and revert to previous versions if needed.
-4. **Test Incrementally:** Test your code in small increments to catch bugs early.
-
-**Visuals:**
-- List of best practices with brief explanations.
 
 ## About BotCampus AI
 
